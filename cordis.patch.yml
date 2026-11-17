@@ -1,0 +1,8 @@
+# `dsh-agent-orchestrator` bundle patch.
+#
+# Inserts this plugin into a profile's layer stack. It contributes the
+# orchestration protocol text (system prompt section) and the structured
+# hand-off report tool used by worker agents.
+- insert:
+    - id: agent-orchestrator
+      name: 'dsh-agent-orchestrator'
