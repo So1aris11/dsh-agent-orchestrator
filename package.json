@@ -1,6 +1,6 @@
 {
   "name": "dsh-agent-orchestrator",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Agent orchestration for DeepSeek Harness: the main agent routes, workers execute flexible lines, a resident supervisor audits, and ready != done.",
   "type": "module",
   "main": "lib/index.js",
